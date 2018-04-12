@@ -1,0 +1,1 @@
+{% include image.html file="/Users/ericcbaum/myblog/Baumerinc2/assets/Sales-cockpit-dashboard.jpg" url="" alt="" caption="This is a sample caption" %"}

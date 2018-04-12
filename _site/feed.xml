@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-19T11:19:48-05:00</updated><id>http://localhost:4000/</id><title type="html">Baumer Inc</title><subtitle>Baumer Inc - Know your audience.</subtitle><entry><title type="html">Reasons to Understand Google Analytics</title><link href="http://localhost:4000/industry/knowledge/2018/01/10/Reasons.html" rel="alternate" type="text/html" title="Reasons to Understand Google Analytics" /><published>2018-01-10T00:00:05-05:00</published><updated>2018-01-10T00:00:05-05:00</updated><id>http://localhost:4000/industry/knowledge/2018/01/10/Reasons</id><content type="html" xml:base="http://localhost:4000/industry/knowledge/2018/01/10/Reasons.html">&lt;p&gt;Defining Digital Analytics
+To begin, let’s start by defining “digital analytics” and why it’s important. So Krista, what’s the deal with digital analytics?&lt;/p&gt;
+
+&lt;p&gt;Well Justin, people usually purchase goods in stages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Baumerinc2/_includes/pngunnamed.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In marketing, we have the concept of a purchase funnel. There are different stages within the funnel that describe customer interactions. A basic purchase funnel includes the following steps:&lt;/p&gt;
+
+&lt;p&gt;Acquisition involves building awareness and acquiring user interest
+Behavior is when users engage with your business
+Conversion is when a user becomes a customer and transacts with your business&lt;/p&gt;
+
+&lt;p&gt;In the offline world, this process can be hard to measure. But in the online world, we can measure many different aspects of the funnel using digital analytics. We can track what online behavior led to purchases and use that data to make informed decisions about how to reach new and existing customers.&lt;/p&gt;
+
+&lt;p&gt;Digital Analytics in Practice
+Think about an online store, such as the Google Merchandise Store. It might have a goal to sell more t-shirts. Using digital analytics, the store could collect and analyze data from their online advertising campaigns to see which are most effective and expand those marketing efforts.&lt;/p&gt;
+
+&lt;p&gt;For example, the store could analyze geographical sales data to understand if people in certain places buy a lot of shirts and then run additional advertising campaigns in those areas. They could also use analytics to understand how users progress through their online shopping cart. If they notice that users have trouble with a particular step on their website, they can make changes to the site to resolve the problem.&lt;/p&gt;
+
+&lt;p&gt;Different kinds of businesses can benefit from digital analytics:&lt;/p&gt;
+
+&lt;p&gt;Publishers can use it to create a loyal, highly-engaged audience and to better align on-site advertising with user interests.
+Ecommerce businesses can use digital analytics to understand customers’ online purchasing behavior and better market their products and services.
+Lead generation sites can collect user information for sales teams to connect with potential leads.
+While we’ve primarily talked about collecting data from a website, Google Analytics can also collect behavioral data from a variety of systems such as mobile applications, online point-of-sales systems, video game consoles, customer relationship management systems, or other internet-connected platforms.&lt;/p&gt;
+
+&lt;p&gt;That’s right. This data is compiled into Analytics reports, which you can use to perform in-depth analysis to better understand your customers and their purchase journey. Then you can test out new solutions to improve your business.&lt;/p&gt;</content><author><name></name></author><summary type="html">Defining Digital Analytics To begin, let’s start by defining “digital analytics” and why it’s important. So Krista, what’s the deal with digital analytics?</summary></entry><entry><title type="html">Getting Started with Google Analytics</title><link href="http://localhost:4000/ga-updates/2017/11/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Getting Started with Google Analytics" /><published>2017-11-07T00:00:05-05:00</published><updated>2017-11-07T00:00:05-05:00</updated><id>http://localhost:4000/ga-updates/2017/11/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/ga-updates/2017/11/07/welcome-to-jekyll.html">&lt;p&gt;Get started with Analytics
+To start collecting basic data from a website or mobile app:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create or sign in to your Analytics account:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to google.com/analytics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click SIGN IN &amp;gt; Analytics.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Do one of the following:&lt;/li&gt;
+  &lt;li&gt;To create an account, click More options &amp;gt; Create account.&lt;/li&gt;
+  &lt;li&gt;To sign in to your account, enter the email address and password associated with the account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set up a property in your Analytics account. A property represents your website or app, and is the collection point in Analytics for the data from your site or app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set up a reporting view in your property. Views let you create filtered perspectives of your data; for example, all data except from your company’s internal IP addresses, or all data associated with a specific sales region.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Follow the instructions to add the tracking code to your website or mobile app so you can collect data in you Analytics property.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This information is found on the &lt;a href=&quot;https://support.google.com/analytics/answer/1008015?hl=en&quot;&gt;Google Support page.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Get started with Analytics To start collecting basic data from a website or mobile app:</summary></entry></feed>

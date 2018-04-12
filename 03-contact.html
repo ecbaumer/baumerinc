@@ -1,0 +1,44 @@
+---
+layout: default
+title: Contact
+permalink: /Contact/
+---
+<div class="contacts__page">
+  <div class="contacts__header">
+  <h1>Let's Get Started!</h1>
+  </div>
+
+
+
+<div class="contacts__copy">
+  <h2>Give us a ring, an email, or send us a message to start understanding your visitors.</h2>
+</div>
+
+<form class="form-style-4" action="https://getsimpleform.com/messages?form_api_token=145f33b03cb4678d17b75e1f5f601f12" method="post">
+
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='http://baumerinc.com/Thanks/' />
+
+  <!-- all your input fields here.... -->
+
+  <label for="field1">
+    <span>Name</span>
+    <input type="text" name="field1" required="true" />
+  </label>
+  <label for="field2">
+    <span>Email Address</span>
+    <input type="email" name="field2" required="true" />
+  </label>
+  <label for="field3">
+    <span>Subject</span>
+    <input type="text" name="field3" required="true" />
+  </label>
+  <label for="field4">
+    <span>What can we help you with? </span>
+    <textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+  </label>
+  <label>
+    <span>&nbsp;</span>
+    <input type="submit" value="Send" />
+  </label>
+</form>

@@ -1,0 +1,45 @@
+
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+.thanks__button a{
+  margin: 0 auto;
+  background: #cbd6e1;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover{
+    background-color: $grey-color-light;
+  }
+}
+</style>
+
+<div class="container">
+  <h1>404</h1>
+  <h2>Whomp. Whomp. Our Bad.</h2>
+  <p><strong>Sorry but this page has not been found.</strong></p>
+  <p>Feel free to let us know about this error..</p>
+  <div class="thanks__button">
+  <a href="https://baumerinc.com/Contact/" role="button">Report This Error</a>
+    <br />
+  <a href="https://baumerinc.com" role="button">Continue To Homepage</a>
+    
+  </a>
+</div>
+</div>

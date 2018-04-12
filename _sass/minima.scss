@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    1000px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        1500px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
+
+
+.site-footer {
+  background-color: #000;
+  color: white;
+  position: absolute;
+  bottom: 0 auto;
+  width: 100%;
+}
+
+/*______________________________ HOME PAGE _________________________*/
+.home-h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px 0 40px 0;
+}
+
+.home-p1__one {
+  text-align: center;
+
+}
+
+.left-image {
+  float: left;
+  width: 48%;
+  border: solid 1px black;
+  margin-right: 2px;
+  height: 180px;
+
+}
+
+.right-image {
+  float: right;
+  width: 48%;
+  border: solid 1px black;
+  margin-left: 2px;
+  height: 180px;
+}
+
+.home-h2 {
+  clear: both;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.left-image1 {
+  border: solid 1px black;
+  @media (min-width: 870px) {
+    margin-left: 100px;
+  }
+}
+
+.home-sub__2ndblock:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-sub__3rdblock {
+  margin-top: 20px;
+}
+
+
+.right-image1 {
+  //float: right;
+  // width: 46%;
+  border: solid 1px black;
+  // margin-top: 10px;
+  // z-index: 0;
+}
+.home-ul {
+  // margin-top: 20px;
+  // float: left;
+  // width: 48%;
+}
+
+@media (min-width: 562px) {
+  .home-ul {
+    margin-top: 20px;
+    float: left;
+    width: 48%;
+  }
+  .right-image1 {
+    width: 46%;
+    margin-top: 10px;
+    z-index: 0;
+
+  }
+}
+
+.home-sub__4thblock {
+  margin: 10px 10px 0px 0px;
+  clear: both;
+
+}
+.home-h2-two {
+  text-align: center;
+  clear: both;
+  font-size: 35px;
+  margin-top: 20px;
+}
+.break {
+  margin-left: 20px;
+
+}
+/*__________________________ PAGE SETTINGS _______________________*/
+.page-heading-box {
+  border: solid 4px black;
+  background-color: #ccc;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-heading {
+text-align: center;
+margin-top: 20px;
+}
+
+.page-content {
+  padding-top: 70px;
+}
+
+/*_____________________________ reports page __________________________*/
+
+.reports__page {
+  h1, h2, h3 {
+    margin: 30px 0;
+  }
+}
+
+.reports__callout-p  p{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #bf4500;
+  width: 100%;
+  padding: 10px;
+  line-height: 40px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.reports__header h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px 0;
+}
+.contacts__header h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+/*------------------------- form --------------------------------------*/
+
+.form-style-4{
+    width: 100%;
+    font-size: 16px;
+    background: #495C70;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: "Helvetica", Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+    //align-self: flex-end;
+}
+.form-style-4 label > span{
+    //display: inline-block;
+    //float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 400px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-family: "Helvetica", Georgia, "Times New Roman", Times, serif;
+}
+.form-style-4 textarea{
+    //font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 400px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #cbd6e1;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #000;
+
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+/* --------------------- Thanks ------------------------*/
+.lead {
+  margin: 50px 0;
+}
+.thanks__button a{
+  margin: 0 auto;
+  background: #cbd6e1;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover{
+    background-color: $grey-color-light;
+  }
+}
+hr {
+  margin-bottom: 100px;
+}
+
+
+/*---------------------- pricing table --------------- */
+
+.pricing__header h1 {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
+
+table.paleBlueRows {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.monthly__reporting {
+  border: none;
+}
+.inital__setup {
+  background-color: #C0E5F6 !important;
+  border-top: 2px solid #444444 !important;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 3px;
+}
+table.paleBlueRows tbody td {
+  font-size: 14px;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot td{
+  font-size: 14px;
+  font-weight: bold;
+  color: #444444;
+  background: #C0E5F6;
+  border-top: 5px solid #444444;
+}
+table.paleBlueRows tfoot {
+  font-size: 14px;
+}
+
+table.paleBlueRows tfoot:last-child {
+    border-top: 1px solid white;
+  }
+
+.pricing__end {
+  text-align: center;
+}
+
+@media (min-width: 601px) {
+
+  table.paleBlueRows {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.paleBlueRows thead th {
+    font-size: 17px;
+  }
+  table.paleBlueRows tfoot td{
+    font-size: 17px;
+  }
+
+
+}
+.monthly__reporting-subtext {
+  font-size: 14px;
+
+}

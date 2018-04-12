@@ -1,0 +1,81 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+            <li>Google Analytics</li>
+            <li>Certified Consultant</li>
+        </ul>
+        <h2>{{ site.description | escape }}</h2>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username %}
+          </li>
+          {% endif %}
+          <li>
+            410-831-9883
+          </li>
+        </ul>
+       
+      </div>
+
+      <div class="footer-col footer-col-3" container>
+       
+          <!-- Begin: HubSpot Academy - Content Marketing Badge -->
+          <div class='academy-badge'>
+            <a href='http://academy.hubspot.com/certification' title='Content Marketing'>
+              <img style="width: 30%;" src='http://api.hubapi.com/academy/v1/badge-image/6595631C7216493B8A5ABB40692B70C9' />
+            </a>
+          </div>
+          <!-- End: HubSpot Academy - Content Marketing Badge -->
+          <!-- Begin: HubSpot Academy - Inbound Sales Badge -->
+          <div class='academy-badge'>
+            <a href='http://academy.hubspot.com/certification' title='Inbound Sales'>
+              <img style="width: 30%;" src='http://api.hubapi.com/academy/v1/badge-image/E7E8111A5AB64D6AB919D9DB05A5C579' />
+            </a>
+            <!-- End: Hubspot Academy - Inbound Sales Badge -->
+          </div>
+          <!-- Begin: HubSpot Academy - Inbound Badge -->
+          <div class='academy-badge'>
+            <a href='http://academy.hubspot.com/certification' title='Inbound'>
+              <img style="width: 30%;" src='http://api.hubapi.com/academy/v1/badge-image/38AB2489BEB049F48D9AE64EBE7E17C7' />
+            </a>
+          </div>
+          <!-- End: HubSpot Academy - Inbound Badge -->
+
+      
+    </div>
+
+  </div>
+
+</footer>
